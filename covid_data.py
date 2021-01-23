@@ -8,8 +8,9 @@ import urllib.request
 
 class CovidData:
 
-    def __init__(self, dates):
+    def __init__(self, date, recovered):
         self.date = date
+        self.recovered = recovered
 
     def get_data():
         pass
